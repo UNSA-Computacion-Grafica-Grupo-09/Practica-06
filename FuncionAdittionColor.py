@@ -13,9 +13,9 @@ def AdittionBN(folder, filename1,filename2):
 	full_filename1 = os.path.join(folder, filename)#importante
 	full_filename2 = os.path.join(folder, filename2)#importante
 
-    	res= cv2.imread(full_filename)#importante
-    	img= cv2.imread(full_filename , cv2.IMREAD_GRAYSCALE)
-    	img2 = cv2.imread(full_filename2)#importante
+    res= cv2.imread(full_filename)#importante
+    imagen= cv2.imread(full_filename , cv2.IMREAD_GRAYSCALE)
+    img2 = cv2.imread(full_filename2)#importante
 
 	imgnew= cv2.resize(imagen,(832,543))
 	
@@ -23,7 +23,7 @@ def AdittionBN(folder, filename1,filename2):
 
 
 
-	x,y = imgnew.shape #tomamos la altura y el ancho de la imagen 
+	#x,y = imgnew.shape #tomamos la altura y el ancho de la imagen 
 
 
 	height, width, chanels=imagen.shape#tomamos la altura y el ancho de la imagen 
@@ -44,5 +44,6 @@ def AdittionBN(folder, filename1,filename2):
 	return full_filename_new #importante
 
 AdittionColor('./img/' , 'AdittionColor.jpg')
+
 
  
