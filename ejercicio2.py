@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May 2020 31
+Created on Sun May 31 2020
 @author: williamhyuk
 """
 
