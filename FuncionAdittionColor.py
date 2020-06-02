@@ -45,4 +45,4 @@ def AdittionBN(folder, filename1,filename2):
 
 AdittionColor('./img/' , 'add_10.jpg','add_11.jpg')
 
- '
+ 
