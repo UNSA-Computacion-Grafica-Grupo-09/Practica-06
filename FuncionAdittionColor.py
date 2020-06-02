@@ -13,9 +13,9 @@ def AdittionBN(folder, filename1,filename2):
 	full_filename1 = os.path.join(folder, filename)#importante
 	full_filename2 = os.path.join(folder, filename2)#importante
 
-    res= cv2.imread(full_filename)#importante
-    imagen= cv2.imread(full_filename , cv2.IMREAD_GRAYSCALE)
-    img2 = cv2.imread(full_filename2)#importante
+    	res= cv2.imread(full_filename)#importante
+    	imagen= cv2.imread(full_filename , cv2.IMREAD_GRAYSCALE)
+    	img2 = cv2.imread(full_filename2)#importante
 
 	imgnew= cv2.resize(imagen,(832,543))
 	
