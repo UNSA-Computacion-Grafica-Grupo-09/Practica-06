@@ -43,7 +43,6 @@ def AdittionBN(folder, filename1,filename2):
 
 	return full_filename_new #importante
 
-AdittionColor('./img/' , 'AdittionColor.jpg')
+AdittionColor('./img/' , 'add_10.jpg','add_11.jpg')
 
-
- 
+ '
